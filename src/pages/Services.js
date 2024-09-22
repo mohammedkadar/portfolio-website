@@ -14,17 +14,17 @@ const Services = () => {
         <div className="container">
             <h1>Services</h1>
             <div>
-                <img src="/webappdevelop.png" alt="Web Application Development" style={{width: '500px', height: 'auto'}} />
+                <img src={`${process.env.PUBLIC_URL}/webappdevelop.png`}alt="Web" style={{width: '500px', height: 'auto'}} />
                 <p>Web Application Development</p>
+                </div>
                 <div>
-                <img src="/srsdocumenting.jpg" alt="SRS Documenting" style={{width: '500px', height: 'auto'}} />
+                <img src={`${process.env.PUBLIC_URL}/srsdocumenting.jpg`} alt="SRS" style={{width: '500px', height: 'auto'}} />
                 <p>Software Requirements Specifications Documenting</p>
             </div>
             <div>
-                <img src="/databasemanaging.jpg" alt="Database Managing" style={{width: '500px', height: 'auto'}} />
+                <img src={`${process.env.PUBLIC_URL}/databasemanaging.jpg`} alt="Database" style={{width: '500px', height: 'auto'}} />
                 <p>Managing Databases</p>
             </div>
-        </div>
         </div>
     );
 };

@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-               <img src="logo.jpg" alt="logo" style={{width: '100px', height: 'auto'}}></img>
+               <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt="logo" style={{width: '100px', height: 'auto'}}></img>
             </div>
 
             <ul className="nav-links">
