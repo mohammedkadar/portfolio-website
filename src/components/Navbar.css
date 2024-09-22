@@ -1,0 +1,51 @@
+/*
+File Name: Navbar.css
+Student's Name: Mohammed Sadiq Ahamed Kadar
+Student ID: 301 430 160
+Date: 09-17-2024
+*/
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #517d9b;
+    color: #ffffff;
+}
+
+/* Navigation Bar Logo Styles */
+.logo img {
+    height: 50px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Link Styles */
+.nav-links {
+display:flex;
+justify-content: center;
+flex-grow: 1;
+gap: 2rem;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
